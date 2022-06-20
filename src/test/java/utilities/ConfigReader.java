@@ -10,6 +10,7 @@ public class ConfigReader {
     //uzantisi onemlidir. mesela .properities gibi
 
     //bu class bize url ile ilgili gerekli datalari getirir.
+    //
 
     public static Properties properties;
 
