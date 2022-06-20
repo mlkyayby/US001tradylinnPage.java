@@ -1,3 +1,0 @@
-merhaba
-bu satir gitHub'da olusturuldu
-merge islemi gözlem

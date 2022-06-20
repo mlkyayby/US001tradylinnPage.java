@@ -70,7 +70,7 @@ public class Driver {
 
         if (driver != null) {
             driver.close();
-            driver = null;//ne olur ne olmaz diyerek eklendi
+            driver = null;//ne olur ne olmaz diyerek eklendi  // ne olur ne olmaz 2
         }
     }
 }
