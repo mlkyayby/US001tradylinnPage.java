@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3956feba-0dac-4928-a418-31c311017ae4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/TradyLinnPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/US_005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/TradyLinnPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/TradyLinnPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/US_005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/US_005.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,87 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aty-2\IdeaProjects\com.Batch59TestNG\tradylinn_39_project" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.US_005">
+    <configuration name="US_005" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_005.TC01DisableProductList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="METHOD_NAME" value="TC01DisableProductList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_005.TC02AddNew" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="METHOD_NAME" value="TC02AddNew" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_005.TCUrunEkle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="METHOD_NAME" value="TCUrunEkle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.US_005" />
+        <item itemvalue="TestNG.US_005.TC01DisableProductList" />
+        <item itemvalue="TestNG.US_005.TCUrunEkle" />
+        <item itemvalue="TestNG.US_005.TC02AddNew" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
