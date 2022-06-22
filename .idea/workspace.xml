@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3956feba-0dac-4928-a418-31c311017ae4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2022_19_01_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_06_2022_19_54_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ScreenShoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/TradyLinnPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/TradyLinnPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/US_005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/US_005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -28,18 +46,122 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/himer/eclipse-workspace/39_Project/src/test/java/utilities&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\himer\eclipse-workspace\39_Project\src\test\java\utilities" />
       <recent name="C:\Users\aty-2\IdeaProjects\com.Batch59TestNG\tradylinn_39_project\src\test\java" />
       <recent name="C:\Users\aty-2\IdeaProjects\com.Batch59TestNG\tradylinn_39_project\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aty-2\IdeaProjects\com.Batch59TestNG\tradylinn_39_project" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.US_005">
+    <configuration name="Tests.US_005,TC01DisableProductList and 8 more" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="Tests.US_005,TC01DisableProductList" />
+        <pattern testClass="Tests.US_005,TC02AddNew" />
+        <pattern testClass="Tests.US_005,TC03UrunEkle" />
+        <pattern testClass="Tests.US_005,TC04" />
+        <pattern testClass="Tests.US_005,TC05Description" />
+        <pattern testClass="Tests.US_005,US_006_TC01AssertDisplayedCategories" />
+        <pattern testClass="Tests.US_005,US_006_TC02selectproductCategoriesRandomly" />
+        <pattern testClass="Tests.US_005,US_007_TC01ProductBrandDisplayed" />
+        <pattern testClass="Tests.US_005,US_007_TC02ProductBrandChoices" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_005" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_005.TC01DisableProductList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="METHOD_NAME" value="TC01DisableProductList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_005.TC02AddNew" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="METHOD_NAME" value="TC02AddNew" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_005.TCUrunEkle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.US_005" />
+      <option name="METHOD_NAME" value="TCUrunEkle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.US_005" />
+        <item itemvalue="TestNG.US_005.TC01DisableProductList" />
+        <item itemvalue="TestNG.Tests.US_005,TC01DisableProductList and 8 more" />
+        <item itemvalue="TestNG.US_005.TCUrunEkle" />
+        <item itemvalue="TestNG.US_005.TC02AddNew" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
