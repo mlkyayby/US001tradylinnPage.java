@@ -45,8 +45,16 @@ public class TradyLinnPages {
     public WebElement sec;
     @FindBy(xpath = "//iframe[@id=\"excerpt_ifr\"]")
     public WebElement iframe;
-    @FindBy(xpath = "//*[@id=\"tinymce\"]")
+    @FindBy(xpath = "//iframe[@id=\"description_ifr\"]")
+    public WebElement iframe2;
+    @FindBy(xpath = "//*[@id=\"tinymce\"]/p/br")
     public WebElement description;
+    @FindBy(xpath = "//ul[@id=\"product_cats_checklist\"]//li")
+    public List<WebElement> categories;
+    @FindBy(xpath = "//*[@id=\"product_cats_checklist\"]/li/input")
+    public List<WebElement> categories2;
+    @FindBy(xpath = "//*[@id=\"product_brand\"]/li/input")
+    public List<WebElement> productBrand;
     public WebElement choiceElement(List<WebElement> myStoreMenu,String str){
         WebElement element=null;
         for (WebElement w:myStoreMenu) {
