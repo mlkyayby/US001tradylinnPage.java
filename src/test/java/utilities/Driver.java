@@ -25,7 +25,7 @@ public class Driver {
     obje olusturularak kullanimi engellemk icin kullanilir.
 
     bunu yapmamiz icin obje olusturmak icin kullanilan constructor'i private yaptigimiz zaman
-    baska classlardan Driver classindan obje olusturulmasi mumkun olamaz.
+    baska classlardan Driver classindan obje olusturulmasi mumkun olamaz..
      .cnj*/
 
     private Driver(){
