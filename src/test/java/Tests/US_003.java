@@ -11,7 +11,7 @@ import pages.US03_4_Page;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class US03 {
+public class US_003 {
     //1- "https://tradylinn.com/wp-admin" adresine gidiniz
     //2- giris yap linkine tiklayin
     //3- gecerli mail adresi ve passwort girerek oturum acin
@@ -29,7 +29,7 @@ public class US03 {
 
     @BeforeClass
     public void beforeClass() throws InterruptedException {
-        Driver.getDriver().get(ConfigReader.getProperty("tradylinnUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("tradyUrl"));
         us03Us04Page.girisYap.click();
         us03Us04Page.userNameBox.sendKeys(ConfigReader.getProperty("vendorValidMail"));
         us03Us04Page.passwortBox.sendKeys(ConfigReader.getProperty("vendorValidPassWort"));
@@ -125,7 +125,7 @@ public class US03 {
         jse.executeScript("arguments[0].scrollIntoView(true);",us03Us04Page.placeOrder);
         jse.executeScript("arguments[0].click();",us03Us04Page.placeOrder);
         //us03Us04Page.placeOrder.click();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         Assert.assertTrue(us03Us04Page.nameRequired.isDisplayed());
         Assert.assertTrue(us03Us04Page.lastNameRequired.isDisplayed());
         Assert.assertTrue(us03Us04Page.districtRequired.isDisplayed());
@@ -170,7 +170,7 @@ public class US03 {
          jse.executeScript("arguments[0].scrollIntoView(true);",us03Us04Page.placeOrder);
         jse.executeScript("arguments[0].click();",us03Us04Page.placeOrder);
         //us03Us04Page.placeOrder.click();
-        Thread.sleep(8000);
+        Thread.sleep(15000);
         Assert.assertTrue(us03Us04Page.orderOrder.isDisplayed());
     }
 /*
