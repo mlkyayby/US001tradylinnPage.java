@@ -48,7 +48,7 @@
       </item>
 
       <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
-
+      </item>
       <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
 
         <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />

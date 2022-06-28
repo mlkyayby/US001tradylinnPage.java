@@ -82,7 +82,9 @@
   </component>
 
   <component name="RunManager" selected="TestNG.US001.TC005">
+
     <configuration name="US001" type="TestNG" temporary="true" nameIsGenerated="true">
+
       <module name="Tradylinn_39_Project" />
       <extension name="coverage">
         <pattern>
@@ -93,10 +95,10 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.US001" />
       <option name="TEST_OBJECT" value="CLASS" />
-
-
+    </configuration>
+  </component>
   <component name="RunManager" selected="TestNG.US_003">
-
+  </component>
   <component name="RunManager" selected="TestNG.US001">
 
     <configuration name="Tests.US_005,TC01DisableProductList and 8 more" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -111,11 +113,11 @@
     </configuration>
 
     <configuration name="US001.TC003" type="TestNG" temporary="true" nameIsGenerated="true">
-
+    </configuration>
 
     <configuration name="US_003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.TestNG_Batch59" />
-
+    </configuration>
     <configuration name="US001" type="TestNG" temporary="true" nameIsGenerated="true">
 
       <module name="Tradylinn_39_Project" />
