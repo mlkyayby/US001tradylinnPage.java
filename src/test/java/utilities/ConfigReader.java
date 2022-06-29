@@ -9,7 +9,8 @@ public class ConfigReader {
     //target icerisinde file koyuyoruz burada isim onemli olmasa da
     //uzantisi onemlidir. mesela .properities gibi
 
-    //bu class bize url ile ilgili gerekli datalari getirir
+    //bu class bize url ile ilgili gerekli datalari getirir.
+    //
 
     public static Properties properties;
 
