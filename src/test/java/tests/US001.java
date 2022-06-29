@@ -19,7 +19,7 @@ public class US001 {
 
 
 
-        //user goes to the website
+        //user goes to the website.
         Driver.getDriver().get(ConfigReader.getProperty("tradylinnUrl"));
         waitFor(2);
         //user verifies uye ol button
