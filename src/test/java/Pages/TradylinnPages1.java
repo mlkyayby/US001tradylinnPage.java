@@ -17,16 +17,14 @@ public class TradylinnPages1 {
     public WebElement password;
     @FindBy(xpath = "(//button[@value=\"Giriş Yap\"])[1]")
     public WebElement login;
-    @FindBy(xpath = "//*[@id=\"menu-item-1074\"]/a")
+    @FindBy(xpath = "(//a[text()='Hesabım'])[1]")
     public WebElement hesabim;
     @FindBy(linkText = "Store Manager")
     public WebElement storeManager;
-
-    @FindBy(linkText = "Kuponlar")
+    @FindBy(xpath = "(//span[@class='text'])[1]")
     public WebElement Kuponlar;
-
-    @FindBy(xpath ="//span[@class='text'])[1]")
-            public WebElement yeniKuponEkle;
+    @FindBy(xpath ="(//*[.='Yeni ekle'])[1]")
+    public WebElement yeniKuponEkle;
     @FindBy(xpath = "//*[@id=\"title\"]\n")
     public WebElement codeTextbox;
     @FindBy(xpath = "//div[@id='coupons_manage_restriction']")
@@ -42,7 +40,7 @@ public class TradylinnPages1 {
      @FindBy(xpath = "(//ul[@class=\"select2-selection__rendered\"])[4]\n")
     public WebElement excludeCategories;
      @FindBy(xpath = "//div[@class='wcfm-tabWrap']")
-             public WebElement CouponSuccessfullyPublished;
+     public WebElement CouponSuccessfullyPublished;
    @FindBy(xpath = "//div[@id=\"coupons_manage_limit\"]\n")
     public WebElement limit;
    @FindBy(xpath = "//input[@id=\"usage_limit\"]\n")

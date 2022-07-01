@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import Pages.TradyLinnPages;
 import org.openqa.selenium.By;

@@ -23,26 +23,27 @@ public class US_014 {
     @BeforeTest
             public void BeforeTest() throws InterruptedException {
         // User goes to tradylinn.com
-        Driver.getDriver().get(ConfigReader.getProperty("trandylinnUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("tradyUrl"));
         //        User clicks "Giriş Yap"
         tradyLinn.girisyap.click();
         //        User enters email
-        tradyLinn.email.sendKeys(ConfigReader.getProperty("vendorValidMail"));
+        tradyLinn.email.sendKeys(ConfigReader.getProperty("userMail"));
         //        User enters password
-        tradyLinn.password.sendKeys(ConfigReader.getProperty("vendorValidPassWord"));
+        tradyLinn.password.sendKeys(ConfigReader.getProperty("userPassword"));
         //        User clicks "Giriş Yap" button
         tradyLinn.login.click();
-        //        User clicks "Hesabım"
-        //bekleme suresi
-        Thread.sleep(3000);
+        //        User clicks "Hesabım"  bekleme suresi
+        Thread.sleep(5000);
         tradyLinn.hesabim.click();
         //        User clicks "Store Manager"
+        Thread.sleep(5000);
         tradyLinn.storeManager.click();
         //User"Kuponlar" butonundan "Yeniekle" secenegini tiklar
         tradyLinn.Kuponlar.click();
+        Thread.sleep(5000);
     }
     @Test
-    public void TC01Kuponlar() throws InterruptedException {
+    public void TC01YeniKuponEkle() throws InterruptedException {
         // User "Yeni kupon ekle "secenegini tikla
         tradyLinn.yeniKuponEkle.click();
         //User "Code" satirina uniq bir deger girerek Enter'a tıklar

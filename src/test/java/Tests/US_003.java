@@ -1,5 +1,6 @@
 package tests;
 
+import Pages.US03_4_Page;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -7,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.US03_4_Page;
+import Pages.US03_4_Page;
 import utilities.ConfigReader;
 import utilities.Driver;
 
