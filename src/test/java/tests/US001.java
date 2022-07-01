@@ -14,11 +14,6 @@ public class US001 {
     US001tradylinnPage US001tradylinnPage = new US001tradylinnPage();
     @Test
     public void TC001() throws InterruptedException {
-
-
-
-
-
         //user goes to the website.
         Driver.getDriver().get(ConfigReader.getProperty("tradylinnUrl"));
         waitFor(2);
@@ -30,7 +25,6 @@ public class US001 {
         waitFor(2);
         //user verifies if satici ol button is visible
         US001tradylinnPage.saticiOlButton.isDisplayed();
-
     }
 
     @Test
